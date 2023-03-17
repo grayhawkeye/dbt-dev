@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: airbnb_filter
+      description: "A starter dbt model"
+      columns:
+          - name: category
+            description: "The primary key for this table"
+          - name: sum_watch_cnt
+            description: "The primary key for this table"
+

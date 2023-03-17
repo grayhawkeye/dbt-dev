@@ -1,3 +1,6 @@
+
+{{ config(materialized='table') }}
+
 SELECT 
     'airbnb' as category,
     sum(watch_count) as sum_watch_cnt 
